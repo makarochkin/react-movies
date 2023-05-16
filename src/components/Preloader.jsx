@@ -1,7 +1,11 @@
+import React from "react";
+
 function SimplePreloader() {
-    return <div className="progress">
-        <div className="indeterminate"></div>
-    </div>
+    return (
+        <div className="progress">
+            <div className="indeterminate"></div>
+        </div>
+    );
 }
 
-export { SimplePreloader }
+export { SimplePreloader };
